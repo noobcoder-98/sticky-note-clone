@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Color
+        x:Key="BackgroundYellow">#FFF7D1</Color>
+    <Color
+        x:Key="FontGray">#646259</Color>
+    <Color
+        x:Key="BackgroundGray">#EEEEEE</Color>
+
+    <SolidColorBrush
+        x:Key="BackgroundNoteBrush"
+        Color="{StaticResource BackgroundYellow}" />
+    <SolidColorBrush
+        x:Key="NoteFontBrush"
+        Color="{StaticResource FontGray}" />
+    <SolidColorBrush
+        x:Key="BackgroundSearchBox"
+        Color="{StaticResource BackgroundGray}" />
+</ResourceDictionary>
